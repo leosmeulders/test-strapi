@@ -5,4 +5,9 @@
  * to customize this controller
  */
 
-module.exports = {}
+module.exports = {
+    async find(ctx){
+        console.log('bonjour')
+        return 'Salut Leo'
+    }
+}
